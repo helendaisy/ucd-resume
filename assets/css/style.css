@@ -3,7 +3,7 @@
 /*----------------------colors*/
 
 .bg-color-name-title{
-    background-color: #676767;
+    background-color: #2D3142;
 }
 
 .bg-color-three-reasons {
@@ -23,19 +23,27 @@
 } 
 
 .ul-menu-color-home {
-    background-color:#e67e62;
+    background-color:#525252;
 }
 
 .ul-menu-color-resume {
-    background-color:#9b59b6;
+    background-color:#6E7DAB;
 }
 
 .ul-menu-color-contact {
-    background-color:#3498db;
+    background-color:#4F5D75;
+}
+
+.ul-menu-color-interests {
+    background-color: #9b59b6;
+}
+
+.ul-menu-color-github {
+    background-color: aqua;
 }
 
 .ul-menu-color-download {
-    background-color:#525252;
+    background-color:#4F5D75;
 }
 
 /*----------------------special paddings/margins/text*/
@@ -164,7 +172,7 @@ header {
 /*----------------------footer*/
 
 footer {
-    background-color: #525252;
+    background-color: #2D3142;
     color: #fafafa;
     min-height: 120px; 
 }
