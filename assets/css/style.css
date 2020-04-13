@@ -83,6 +83,11 @@ h4 {
     margin-bottom: 40px;
 }
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
 
 
 /*----------------------heading*/
@@ -127,7 +132,16 @@ header {
     margin:0;
 }
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
 #nav li {
+    font-size: 14px;
     padding: 0;
 }
 
@@ -176,6 +190,7 @@ footer {
     background-color: #2B3871;
     color: #fafafa;
     min-height: 120px; 
+    margin: 0; 
 }
 
 footer .cv-pdf i {
@@ -220,7 +235,7 @@ footer .cv-pdf i:hover {
 }
 
 #footer-details{
-    margin: 20px;
+    padding: 20px;
 }
 
 /*----------------------three reasons*/
